@@ -1,0 +1,271 @@
+.gr{
+    width: 100%;
+    height: 200px;
+    border:px solid black;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.krug{
+     width: 80px;
+    height: 80px;
+    border:px solid black;
+    border-radius: 100px;
+    animation:krugi 4s infinite linear;
+}
+
+@keyframes krugi{
+0% { background-color: rgb(255, 30, 0);
+transform: translateY(0); }
+10% { background-color: rgb(136, 255, 0);
+transform: translateY(100px) }
+20% { background-color: rgb(0, 255, 55);
+transform: translateY(0) }
+30% { background-color: rgb(162, 0, 255);
+transform: translateY(100px) }
+40% { background-color: rgb(0, 255, 213); 
+transform: translateY(0)}
+50% { background-color:rgb(204, 0, 255);
+transform: translateY(100px) }
+60% { background-color: rgb(0, 255, 191); 
+transform: translateY(0)}
+70% { background-color: rgb(0, 162, 255);
+transform: translateY(100px) }
+80% { background-color: rgb(0, 255, 191);
+transform: translateY(0) }
+90% { background-color: rgb(255, 81, 0); 
+transform: translateY(100px)}
+100% {background-color: rgb(47, 68, 255); 
+transform: translateY(0)}
+
+}
+
+.krugp{
+     width: 80px;
+    height: 80px;
+    border:px solid black;
+    border-radius: 100px;
+    animation:krugip 4s infinite linear;
+}
+
+@keyframes krugip{
+0% { background-color: rgb(255, 0, 43);
+transform: translateY(100px); }
+10% { background-color: rgb(0, 255, 157);
+transform: translateY(0) }
+20% { background-color: rgb(255, 0, 0);
+transform: translateY(100px) }
+30% { background-color: rgb(0, 238, 255);
+transform: translateY(0) }
+40% { background-color: rgb(255, 0, 0); 
+transform: translateY(100px)}
+50% { background-color:rgb(183, 0, 255);
+transform: translateY(0) }
+60% { background-color: rgb(123, 255, 0); 
+transform: translateY(100px)}
+70% { background-color: rgb(217, 255, 0);
+transform: translateY(0) }
+80% { background-color: rgb(68, 0, 255);
+transform: translateY(100px) }
+90% { background-color: rgb(255, 81, 0); 
+transform: translateY(0)}
+100% {background-color: rgb(47, 68, 255); 
+transform: translateY(100px)}
+
+}
+
+body {
+    min-height: 100vh;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom, #0c2461, #1e3799, #4a69bd);
+    color: white;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.osnova{
+    width: 100%;
+    height: 600px;
+     border:px solid black;
+     display: flex;
+     justify-content: center;
+     justify-content: space-between;
+
+}
+
+.tim{
+    width: 40%;
+     height: 300px;
+     border:px solid black;
+     
+     
+}
+
+.lef{
+    width: 400px;
+     height: 300px;
+     border:px solid black;
+     margin-top: 150px;
+     animation:kru 3s infinite linear;
+}
+
+.praf{
+    width: 400px;
+     height: 300px;
+     border:px solid black;
+     margin-top: 150px;
+     animation:kru 3s infinite linear;
+}
+
+.aa{display: flex;
+    align-items: center;
+justify-content: center;
+position: fixed;
+bottom: 0;
+left: 820px;
+z-index: 1000;
+
+}
+
+@keyframes kru{
+0% { 
+transform: translateY(100px); }
+10% { 
+transform: translateY(0) }
+20% { 
+transform: translateY(100px) }
+30% { 
+transform: translateY(0) }
+40% { 
+transform: translateY(100px)}
+50% { 
+transform: translateY(0) }
+60% { 
+transform: translateY(100px)}
+70% { 
+transform: translateY(0) }
+80% {
+transform: translateY(100px) }
+90% { 
+transform: translateY(0)}
+100% {
+transform: translateY(100px)}}
+
+
+
+.per{
+transform: translate(500px,-280px);
+border: 7px solid white;
+width: 850px;}
+
+p{font-size: 20px;}
+
+summary{font-size: 100px;text-align: center;}
+
+.inside { display: none; }
+.gift:hover .inside { display: block; }
+
+.gift{width: 100px;
+font-size: 100px;
+}
+
+.ck{display: flex;
+flex-wrap: nowrap;
+gap: 60px;}
+
+.rt{width: 100%;
+height: 300px;
+border:  px solid black;
+margin-top: 80px;}
+
+
+
+
+.tree-wrapper {
+  text-align: center;
+  margin-top: 40px;
+  color: white;
+}
+
+
+
+
+.tree {
+  position: relative;
+  width: 0;
+  margin: auto;
+  border-left: 120px solid transparent;
+  border-right: 120px solid transparent;
+  border-bottom: 200px solid green;
+}
+
+
+.star {
+  position: absolute;
+  top: -50px;
+  left: -20px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.star:hover {
+  text-shadow: 0 0 20px gold;
+}
+
+
+.ball {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: red;
+  cursor: pointer;
+}
+
+.ball10 { top: 20px; left: -10px; background: rgb(174, 0, 255); }
+
+
+.ball11 { top: 50px; left: -28px; background: rgb(255, 0, 0); }
+.ball12 { top: 50px; left: 15px; background: rgb(255, 238, 0); }
+
+
+.ball13 { top: 90px; left: -52px; background: rgb(247, 0, 255); }
+.ball14 { top:90px; left: -9px; background: rgb(255, 153, 0); }
+.ball15 { top: 90px; left: 34px; background: blue; }
+
+
+
+.ball1 { top: 130px; left: -76px; }
+.ball2 { top: 130px; left: -33px; background: rgb(255, 187, 0); }
+.ball8 { top: 130px; left: 10px; background: rgb(76, 0, 255); }
+.ball9 { top: 130px; left: 53px; background: rgb(0, 119, 255); }
+
+
+
+.ball3 { top: 170px; left: -100px; background: gold; }
+.ball4 { top: 170px; left: -57px; background: rgb(0, 255, 242); }
+.ball5 { top: 170px; left: -14px; background: rgb(153, 0, 255); }
+.ball6 { top: 170px; left: 29px; background: rgb(0, 119, 255); }
+.ball7 { top: 170px; left: 72px; background: rgb(255, 145, 0); }
+
+
+
+input[type="checkbox"] {
+  display: none;
+}
+
+input:checked + .ball {
+  box-shadow: 0 0 15px white;
+}
+
+
+.gif {
+  margin-top: 20px;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.tree:hover + .gif {
+  opacity: 1;
+}
